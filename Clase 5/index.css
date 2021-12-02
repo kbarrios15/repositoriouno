@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  /*
+  Consigna:
+  Asignar la propiedad que corresponda para que los ítems dentro de container se posicionen horizontalmente en orden inverso.
+  */
+  .container{
+    width: 80%;
+    max-width: 640px;
+    min-height: 500px;  
+    margin: auto;
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .container-row{
+    flex-direction: row;
+    justify-content:center ;
+    align-items:center ;
+  }
+  .container-row-reverse{
+    flex-direction: row-reverse;
+    align-items:center ;
+    }
+  .container-column{
+   flex-direction: column;
+     }
+  .container-column-reverse{
+   flex-direction: column-reverse;
+   }
+
+  .item{
+    width: 100px;
+    max-height: 100px;
+    line-height: 100px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #bc3b69;
+    
+  }
+
+  .item2
+  {width: 100px;
+    max-height: 100px;
+    line-height: 100px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #bc3b69;
+    order: 2;
+
+  }
+  .item4
+  {width: 100px;
+    max-height: 100px;
+    line-height: 100px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #bc3b69;
+    order: 1;
+
+  }
+  

@@ -1,0 +1,87 @@
+/*estructura comentario en css*/
+/* Sintaxis CSS
+selector {
+    nombre de propiedad: valor
+}
+
+
+
+*/
+/*Unico selector*/
+body{
+    background-color: burlywood;
+  }
+
+ /*Varios selectores separados por comas*/ 
+  
+h1, h2{
+    background-color: aqua;
+    color: red;
+  }
+  
+/*Tipos de selectores
+- Selctor universal: *
+- selector de eiqueta: h1, p, selection, cualquier equieta
+- selector por clase: .NombreDeLaClase ej: .secciones
+- selctor por id: #principal 
+
+las class son identificadores grupales, comunes ... deben ser descriptivos y acorde lo que queremos mostrar
+> dentro de una etiqueta o algo
+
+*/
+
+#principal {font-style: italic;
+}
+
+.secciones {
+    background-color: chartreuse;
+  }
+
+
+p.individual {color:white}
+
+
+.individual {font-weight: bold;}
+
+span{color:purple}
+
+div > p {font-weight: bold
+    ;font-style: italic;}
+
+
+    /* Colores
+    Por nombres: blanco, negreo, rojo
+    en sistema RGB: 
+    rojo: rgb (255,0,0)
+    verde: rgb (0,255,0)
+    azul: rgb (0,0,255)
+    Sistema HEXA: #xxxxxx 2 rojo 2 verde 2 azul
+    blanco: #FFFFFF
+    negro: #000000
+    rojo: #FF00000
+    verde: #00FF00
+    azul: #0000FF
+    Sistema HUE:
+    negro: hsl (0, 0%, 0%)
+    blanco: hsl (0, 0%, 100%)
+    rojo: hsl (0, 100%, 50%)
+    */
+
+    /*Tipografías
+    Escoge la tipografìa de izquierda a derecha
+    se escribe con "" cuando tiene espacio el tipo de letra
+    font - size tamaño fuente 20px / 25% / 3em
+    font - weight normal, bold, semi-bold; 100 - 900
+    font - style italic, oblique, normal
+
+
+    text-transform 
+    uppercase (transforma las letras de minus a mayus o viceversa)/lowercase
+    text - align center, left, right, justify
+    vertical-align top bottom center 
+    
+
+    
+    */
+
+    p { font-family: Arial, Helvetica, sans-serif;}
